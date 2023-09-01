@@ -1,0 +1,42 @@
+.main{
+    background-color: rgb(218, 218, 218);
+    opacity: 1;
+    /* background-image: url("space-1.jpg"); */
+    background-attachment: scroll;
+}
+
+h1{
+    color: #fff;
+    border-style: dashed dotted solid dotted;
+    border-width: thick;
+    margin: 50px 70px 25px 50px;
+    padding: 25px 50px;
+    outline: red groove 9px; 
+    outline-offset: 15px;
+}
+
+p:nth-child(2) {
+    color: aquamarine;
+    text-decoration-line: overline underline;
+    text-decoration-color: gold;
+    text-shadow: 2px 2px red;
+}
+
+p:nth-child(3) {
+    color: deeppink;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 30px;
+    line-height: 1.8;
+    word-spacing: 10px;
+    font-family: Garamond, serif;
+}
+
+button{
+    border-width: thin;
+    border-radius: 8px;
+    border-color: rgb(220, 38, 38);
+    box-shadow: transparent;
+    padding: 16px 24px;
+    background-color: #fff;
+}
